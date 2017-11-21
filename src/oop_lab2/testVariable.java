@@ -42,10 +42,10 @@ public static void main(String[] args) {
           m += 10; // m = m+10; m=22
           System.out.println(m);
           m -= 5;
-    System.out.println(m);
-    m
+          System.out.println(m);
+          m *= 10;
+          System.out.println(m);
 
-    System.out.println(m);
     // Boolean
           boolean b = true;
           boolean u = false;
