@@ -15,7 +15,5 @@ public class StringToken {
         }//while
 
 
-
-
     }//main
 }//class
