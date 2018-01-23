@@ -12,65 +12,65 @@ public class SuperCar {
     @Override
     public String toString() {
         return "SuperCar{" +
-                "car_brand='" + car_brand + '\'' +
-                ", car_color='" + car_color + '\'' +
-                ", enging_size='" + enging_size + '\'' +
-                ", max_speed='" + max_speed + '\'' +
+                "brand='" + brand + '\'' +
+                ", color='" + color + '\'' +
+                ", size='" + size + '\'' +
+                ",speed='" + speed + '\'' +
                 ", county='" + county + '\'' +
                 '}';
     }
     private static String getder = "Car";
-    private String car_brand;
-    private String car_color;
-    private String enging_size;
-    private String max_speed;
+    private String brand;
+    private String color;
+    private String size;
+    private String speed;
     private String county;
     //Constructor
     //Default contructor
     public SuperCar(){}
     //create constructor by owner
-    public SuperCar (String car_brand,String car_color,String enging_size,String max_speed,
+    public SuperCar (String brand,String color,String size,String speed,
                      String county){
         //asigne data to class properties
-        this.car_brand = car_brand;
-        this.car_color = car_color;
-        this.enging_size = enging_size;
-        this.max_speed = max_speed;
+        this.brand = brand;
+        this.color = color;
+        this.size = size;
+        this.speed = speed;
         this.county = county;
     }
     //getter and setter methods
 
 
-    public String getCar_brand() {
-        return car_brand;
+    public String getbrand() {
+        return brand;
     }
 
-    public void setCar_brand(String car_brand) {
-        this.car_brand = car_brand;
+    public void setbrand(String brand) {
+        this.brand = brand;
     }
 
-    public String getCar_color() {
-        return car_color;
+    public String getcolor() {
+        return color;
     }
 
-    public void setCar_color(String car_color) {
-        this.car_color = car_color;
+    public void setcolor(String color) {
+        this.color = color;
     }
 
-    public String getEnging_size() {
-        return enging_size;
+    public String getsize() {
+        return size;
     }
 
-    public void setEnging_size(String enging_size) {
-        this.enging_size = enging_size;
+    public void setsize(String size) {
+        this.size = size;
     }
 
-    public String getMax_speed() {
-        return max_speed;
+    public String getspeed() {
+        return speed;
     }
 
-    public void setMax_speed(String max_speed) {
-        this.max_speed = max_speed;
+    public void setspeed(String speed) {
+        this.speed = speed;
     }
 
     public String getCounty() {
