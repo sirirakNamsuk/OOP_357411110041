@@ -32,21 +32,21 @@ public class mySuperCar {
 
     }//main
 
-    public static SuperCar inputData(SuperCar car) {
+    public static SuperCar inputData(SuperCar s) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your SuperCar data: ");
+        System.out.println("Enter SuperCar info: ");
         System.out.print("car_brand: ");
-        car.setCar_brand(scanner.nextLine());
+        s.setCar_brand(scanner.nextLine());
         System.out.print("car_color: ");
-        car.setCar_color(scanner.nextLine());
+        s.setCar_color(scanner.nextLine());
         System.out.print("enging_size: ");
-        car.setEnging_size(scanner.nextLine());
+        s.setEnging_size(scanner.nextLine());
         System.out.print("max_speed: ");
-        car.setMax_speed(scanner.nextLine());
+        s.setMax_speed(scanner.nextLine());
         System.out.print("county: ");
-        car.setCounty(scanner.nextLine());
+        s.setCounty(scanner.nextLine());
 
-        return car;
+        return s;
     }
 
 }//class
