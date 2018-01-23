@@ -7,6 +7,8 @@ package OOP_Lab7;
 
 
 public class Student {
+    public boolean gender;
+
     @Override
     public String toString() {
         return "Student{" +
@@ -17,7 +19,8 @@ public class Student {
                 '}';
     }//toString
 
-    private String id;
+        private static String getder = "Male";
+        private String id;
         private String major;
         private String faculty;
         private String name;
