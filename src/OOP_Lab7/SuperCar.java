@@ -9,8 +9,8 @@ package OOP_Lab7;
 public class SuperCar {
     public boolean gender;
 
-    @Override
-    public String toString() {
+
+    public String getSuperCarInfo() {
         return "SuperCar{" +
                 "brand='" + brand + '\'' +
                 ", color='" + color + '\'' +

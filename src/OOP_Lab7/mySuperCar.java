@@ -22,7 +22,11 @@ public class mySuperCar {
             String c = scanner.nextLine();
             System.out.print("Engine Size: ");
             String e = scanner.nextLine();
-            SuperCar Car  = new SuperCar(b,c,e);
+            System.out.print("speed: ");
+            String p = scanner.nextLine();
+            System.out.print("county: ");
+            String t = scanner.nextLine();
+            SuperCar Car  = new SuperCar(b,c,e,p,t);
             myCarList.add(Car);
         }
         return myCarList;
