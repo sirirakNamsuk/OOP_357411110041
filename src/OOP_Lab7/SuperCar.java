@@ -2,7 +2,7 @@ package OOP_Lab7;
 //SuperCar
 // 1.car brand
 // 2.car color
-// 3.car enging size
+// 3.car engine size
 // 4.max speed
 // 5.county of origin
 
