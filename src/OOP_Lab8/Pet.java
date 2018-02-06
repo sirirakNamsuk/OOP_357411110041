@@ -8,6 +8,10 @@ public abstract class Pet {
         this.name = name;
         this.age = age;
     }
+    protected void myPet(){
+        this.name = name;
+        this.age = age;
+    }
     //Abstract Method
     public abstract void makeNoise();
 
